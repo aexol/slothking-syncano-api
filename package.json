@@ -10,7 +10,8 @@
     "generate": "./bin/api.js"
   },
   "scripts": {
-    "generate": "node bin/api.js"
+    "generate": "node bin/api.js",
+    "build":""
   },
   "license": "MIT",
   "devDependencies": {},
