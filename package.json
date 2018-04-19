@@ -1,0 +1,23 @@
+{
+  "name": "@aexol/slothking-syncano-api",
+  "version": "0.1.8",
+  "private": false,
+  "description": "Slothking syncano generator backend to frontend",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "generate": "./bin/api.js"
+  },
+  "scripts": {
+    "generate": "node bin/api.js"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "lodash.camelcase": "^4.3.0",
+    "node-fetch": "^2.1.2",
+    "shelljs": "^0.8.1"
+  },
+  "licenses": []
+}
