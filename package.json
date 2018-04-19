@@ -1,6 +1,6 @@
 {
   "name": "@aexol/slothking-syncano-api",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "description": "Slothking syncano generator backend to frontend",
   "publishConfig": {
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "generate": "node bin/api.js",
-    "build":""
+    "build": ""
   },
   "license": "MIT",
   "devDependencies": {},
