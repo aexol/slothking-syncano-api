@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 var instance = process.env.npm_package_config_syncano;
+console.log('Instance',instance)
 var instanceUrl = `https://api.syncano.io/v2/instances/${instance}/endpoints/sockets/`;
 var fetch = require('node-fetch');
 let camelCase = require('lodash.camelcase');
@@ -60,6 +61,7 @@ export const ${camelName} = (s:SyncanoClientType) => (${firstLine}${tsInterface}
 `;
 };
 const generateFile = (sockets) => {
+  console.log(sockets)
   let allFile = `// DO NOT EDIT!
 // This file was generated as part of build process.
 // Any changes made to this file WILL be discarded
