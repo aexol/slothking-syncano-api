@@ -1,7 +1,8 @@
 #! /usr/bin/env node
 
-var instance = process.env.npm_package_config_syncano;
-console.log('Instance',instance)
+var args = process.argv.slice(2);
+console.log(args)
+var instance = args[0]
 var instanceUrl = `https://api.syncano.io/v2/instances/${instance}/endpoints/sockets/`;
 var fetch = require('node-fetch');
 let camelCase = require('lodash.camelcase');
