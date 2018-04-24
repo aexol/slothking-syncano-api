@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var instance = process.env.npm_package_config_syncano;
 var instanceUrl = `https://api.syncano.io/v2/instances/${instance}/endpoints/sockets/`;
 var fetch = require('node-fetch');
