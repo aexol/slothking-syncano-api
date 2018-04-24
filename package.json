@@ -1,6 +1,6 @@
 {
   "name": "@aexol/slothking-syncano-api",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "private": false,
   "description": "Slothking syncano generator backend to frontend",
   "publishConfig": {
