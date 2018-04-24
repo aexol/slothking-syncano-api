@@ -7,7 +7,7 @@
     "access": "public"
   },
   "bin": {
-    "generate": "node ./bin/api.js"
+    "generate": "./bin/api.js"
   },
   "scripts": {
     "generate": "node bin/api.js",
